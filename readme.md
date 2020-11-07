@@ -1,6 +1,6 @@
 # You Don't Know Stack.
 
-This is the code that goes with the
+This is the code that goes with the talk:
 
 > Sync 101. You Don't Know Stack.
 
