@@ -1,0 +1,10 @@
+{
+  "name": "asyncmatters",
+  "version": "1.0.0",
+  "main": "one.js",
+  "author": "sanderelias <sanderelias@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "module": "one",
+  "type": "module"
+}
