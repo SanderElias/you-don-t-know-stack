@@ -1,23 +1,5 @@
-import {timePasses, itBreaks} from './timePasses.mjs';
-
 console.log('this');
+setTimeout(() => console.log('.'), 1000);
 console.log('is');
-itBreaks(() => console.log('.'), 1000);
-setTimeout(go, 100);
-
-let count = 0;
-while (timePasses(1500)) {}
-
+setTimeout(() => console.log('four'), 100);
 console.log('sample');
-
-function go() {
-  up();
-}
-
-function up() {
-  theStack();
-}
-
-function theStack() {
-  console.log('tree');
-}

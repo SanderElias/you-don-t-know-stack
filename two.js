@@ -2,20 +2,20 @@ console.log('this');
 
 console.log('is');
 
-go();
+go('sample');
 
 console.log('two');
 
-console.log('.');
+go('.');
 
-function go() {
-  up();
+function go(msg) {
+  up(msg);
 }
 
-function up() {
-  theStack();
+function up(msg) {
+  theStack(msg);
 }
 
-function theStack() {
-  console.log('tree');
+function theStack(msg) {
+  console.log(msg);
 }

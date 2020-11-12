@@ -1,27 +1,8 @@
-import {timePasses, itBreaks} from './timePasses.mjs';
+import {itBreaks} from './timePasses.mjs';
 
 console.log('this');
+itBreaks(() => console.log('. <-- should be there!'), 1000);
 console.log('is');
-itBreaks(() => console.log('.'), 1000);
-setTimeout(go, 100);
-
-let count = 0;
-while (timePasses(1500)) {}
-
+setTimeout(() => console.log('five'), 100);
 console.log('sample');
 
-while (timePasses(Number.MAX_SAFE_INTEGER)) {
-    
-}
-
-function go() {
-  up();
-}
-
-function up() {
-  theStack();
-}
-
-function theStack() {
-  console.log('tree');
-}
